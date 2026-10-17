@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img1"
+            android:contentDescription="Image 1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img2"
+            android:contentDescription="Image 2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img3"
+            android:contentDescription="Image 3" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img4"
+            android:contentDescription="Image 4" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img5"
+            android:contentDescription="Image 5" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img6"
+            android:contentDescription="Image 6" />
+
+    </GridLayout>
+</ScrollView>
